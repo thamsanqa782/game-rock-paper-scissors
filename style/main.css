@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    color: rgba(10, 10, 10, 0.685);
+}
+
+.container{
+    max-width: 1200px ;
+    height: 100vh;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(15, 41, 110, 0.253);
+    justify-content: center;
+}
+
+.container .section{
+    width: 300px;
+    height: 80px;
+    margin-top: 5px;
+}
+
+.card-holder{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.card-holder img{
+    width: 65px;
+    height: 65px;
+    border-radius:70% ;
+    background-position: center;
+}
+
+.card-holder img:active{
+    transform: scale(0.9);
+}
+
+.output-display{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.output-display div{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.computer-output , .player-output{
+    background-position: center;
+    background-size: cover;
+}
+
+.reset{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+button{
+    padding: 4px 6px;
+    font-size: 17px;
+    font-weight: 400;
+    border: none;
+}
